@@ -53,9 +53,9 @@ input {
     height: 5rem;
     border-radius: 2rem;
     border: none;
-    padding: 1rem;
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    outline: none;
 }
 
 #logo {
@@ -108,7 +108,7 @@ p {
 }
 
 .botao_login {
-    width: 25rem;
+    width: 30rem;
     height: 5rem;
     border-radius: 2rem;
     background-color: #ff3131;
@@ -125,3 +125,23 @@ p {
         font-weight: bold;
     }
 }
+
+.um {
+    background-color: #fff;
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+
+    img {
+        margin-top: 1.3rem;
+    }
+
+    input {
+        margin-left: 1rem;
+    }
+}
+
+
+
