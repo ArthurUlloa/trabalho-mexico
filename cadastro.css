@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "Bree Serif", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.um {
+    border: 1px solid red;
+    margin-right: auto;
+ 
+}
+
+.esquerda {
+    background-color: #45c587;
+    display: flex;
+
+    width: 90rem;
+    height: 50rem;
+    border-radius: 2rem ;
+   
+
+}
+
+.direita {
+    height: 100%;
+    margin-left: auto;
+    background-color: #ff3131;
+    width: 40%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 30rem;
+        height: auto;
+    }
+}
+
