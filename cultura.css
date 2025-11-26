@@ -24,74 +24,57 @@ header {
         text-decoration: none;
         color: #fff;
         font-size: 14px;
+        margin-top: 2.5rem;
     }
 }
 
 main {
     background-color: #318374;
-    height: 160vh;
+    height: 450vh;
     display: flex;
     justify-content: center;
 
     div {
         background-color: #fff;
         width: 100rem;
-        height: 80rem;
+        height: 250rem;
         margin-top: 5rem;
         border-radius: 4rem;
         padding: 1.9rem;
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        section {
+            text-align: center;
+            padding-top: 5rem;
+            padding-inline: 10.5rem;
+            
+            strong {
+                font-size: 2rem;
+
+            }
+            p {
+                font-size: 2rem;
+                margin-top: 1.5rem;
+                line-height: 2.4rem;
+                text-align: justify;
+            }
+        }
     }
 }
 
-.primeira {
+.cultura {
+    font-size: 5rem;
+    margin-right: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+.princ {
     display: flex;
     flex-direction: row;
     margin-bottom: 3rem;
-}
-
-.segunda {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4rem;
-}
-
-img {
-    width: 29rem;
-    height: auto;
-    border-radius: 1.8rem;
-}
-
-h2 {
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-
-
-p {
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.um {
-    font-size: 2.4rem;
-    margin-left: 1.8rem;
-    margin-top: 2.5rem;
-}
-
-.dois {
-    font-size: 2rem;
-    margin-right: 1.8rem;
-    margin-top: 2.5rem;
-}
-
-.home{
-    font-size: 5rem;
-    margin-right: 4rem;
-}
-
-.outros {
-    margin-top: 2.4rem;
 }
