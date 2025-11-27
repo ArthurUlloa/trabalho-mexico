@@ -22,25 +22,29 @@ header {
         margin-top: 2.5rem;
     }
 
-    .culinaria {
-        font-size: 5rem;
+    .pontos {
+        font-size: 4.3rem;
         margin-right: 4rem;
         margin-bottom: 2.5rem;
     }
 }
 
 main {
-    background-color: #318374;
-    height: 950vh;
+    background: #318374;
+    height: 640vh;
     display: flex;
     justify-content: center;
-
-    div {
-        background-color: #fff;
-
+    .princ {
+        background: #fff;
         margin-top: 5rem;
         border-radius: 4rem;
         padding: 4rem;
+        width: 100rem;
+        height: 380rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         h1 {
             font-size: 3rem;
@@ -48,63 +52,19 @@ main {
             text-align: center;
         }
 
-        section {
+        section{
             text-align: center;
             padding-top: 5rem;
             padding-inline: 10.5rem;
-            
-            strong {
-                font-size: 2rem;
 
-            }
             p {
                 font-size: 1.6rem;
                 margin-top: 1.5rem;
                 text-align: justify;
                 line-height: 2.5rem;
-            }
+                margin-bottom: 2rem;
+            }          
         }
     }
-}
 
-
-.princ {
-
-    width: 100rem;
-    height: 600rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-
-    p {
-        font-size: 1.6rem;
-        margin-inline: 3rem;
-
-    }
-
-.segunda {
-    width: 90%;
-    height: 96%;
-    margin-bottom: 4rem;
-    background-color: #318374;
-    color:#fff;
-
-    h2 {
-        font-size: 2.8rem;
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    section {
-        p{
-            font-size: 1.6rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        
-    }
-}
 }

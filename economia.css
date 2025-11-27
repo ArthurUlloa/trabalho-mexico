@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "Bree Serif", serif;
+}
+
+header {
+    background-color: #45c587;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        margin-top: 2.5rem;
+    }
+
+    .economia {
+        font-size: 5rem;
+        margin-right: 4rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+main {
+    background-color: #318374;
+    height: 500vh;
+    display: flex;
+    justify-content: center;
+
+    .princ {
+        background: #fff;
+        margin-top: 5rem;
+        border-radius: 4rem;
+        padding: 4rem;
+        width: 100rem;
+        height: 230rem;
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+    }
+}
+
