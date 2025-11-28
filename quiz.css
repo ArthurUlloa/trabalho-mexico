@@ -22,7 +22,7 @@ header {
         margin-top: 2.5rem;
     }
 
-    .economia {
+    .quiz {
         font-size: 5rem;
         margin-right: 4rem;
         margin-bottom: 2.5rem;
@@ -31,7 +31,7 @@ header {
 
 main {
     background-color: #318374;
-    height: 350vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
 
@@ -41,7 +41,7 @@ main {
         border-radius: 4rem;
         padding: 4rem;
         width: 100rem;
-        height: 187rem;
+        height: 90%;
         
 
         h1 {
@@ -49,48 +49,49 @@ main {
             margin-bottom: 5rem;
             text-align: center;
         }
+        
+        section {
+            margin-top: 7rem;
+            text-align: center;
 
-        .esquerdo {
-            display: flex;
-           
+          
+
             p {
+                color: #318374;
                 font-size: 2rem;
-                margin-bottom: 8rem;
-                text-align: center;
-                margin-left: 4rem;
-                margin-right: 10rem;
+                margin-bottom: 5rem;
+            
+                
             }
 
-            hr {
-                width: 40rem;
-                background-color: #45c587;
+            .opcao {
+                display: flex;
+                align-items: center; 
+                gap: .5rem;
+                margin-inline: 4rem;
+                
+            }
+
+            .opcao2 {
+                display: flex;
+                align-items: center;                
+                justify-content: center;
+
+        
+            }
+
+            input {
+                width: 2rem;
+                height: 3rem;
+                margin-right: 1.3rem;
+                margin-bottom: 2.7rem;
+            }
+            label {
+                font-size: 1.4rem;
+                margin-right: 1.3rem;
+                margin-bottom: 2.7rem;
             }
         }
 
-        .direito {
-            display: flex;
-
-            p {
-                font-size: 2rem;
-                margin-bottom: 8rem;
-                text-align: center;
-                margin-right: 4rem;
-                margin-left: 10rem;
-            }
-
-            img {
-                margin-left: 5rem;
-            }
-        }
     }
 }
-
-img {
-    width: 27rem;
-    height: auto;
-}
-
-p {
-    width: 45rem;
-}
-
