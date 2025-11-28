@@ -31,7 +31,7 @@ header {
 
 main {
     background-color: #318374;
-    height: 250vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
 
@@ -41,7 +41,7 @@ main {
         border-radius: 4rem;
         padding: 4rem;
         width: 100rem;
-        height: 90%;
+        height: 85%;
         
 
         h1 {

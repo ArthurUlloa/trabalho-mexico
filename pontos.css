@@ -31,7 +31,7 @@ header {
 
 main {
     background: #318374;
-    height: 640vh;
+    height: 450vh;
     display: flex;
     justify-content: center;
     .princ {
